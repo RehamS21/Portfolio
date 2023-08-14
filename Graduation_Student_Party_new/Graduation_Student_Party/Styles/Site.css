@@ -1,0 +1,449 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+   body {
+    background-color: #dfd7db;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+
+
+.blue {
+    background: white;
+    height: auto;
+    width: auto;
+    float: left;
+    padding: 5px;
+}
+
+.yellow {
+    background: white;
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+
+.orange {
+    background: white;
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 5px;
+}
+/*#endregion */
+
+
+.page
+{
+    /*width: 960px;*/
+    background-color: #fff;
+    margin: 0px auto 0px auto;
+    border: 1px solid #496077;
+}
+
+
+.header {
+    position: static;
+    margin: 0px;
+    padding: 0px;
+    background-color: #C6ADAD;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    padding: 0px 12px;
+    /*margin: 40px 8px 8px 8px;*/
+    min-height: 420px;
+    width: 960px;
+    background-color: #fff;
+    margin: 50px 0px 0px 200px;
+    border:none;
+  
+     /*1px solid #496077;*/
+
+}
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.rigthhSide
+{
+    width:400px;
+    background-color:black;
+    float:right;
+    /*min-height:240px;*/
+    padding: 8px 0px 0px 0px;
+    min-height:420px;
+    margin: 50px auto;
+    text-align: center;
+    line-height: normal;
+    /*position:absolute;*/
+   /*left:100%;*/
+
+  
+   border: 1px solid #496077;
+
+}
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.hideSkiplink 
+{
+    background-color:#C6ADAD;
+    width:100%;
+    position:absolute;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+    div.menu ul li a, div.menu ul li a:visited {
+        background-color: #C6ADAD;
+        border: 1px #C6ADAD solid;
+        color: #8A6060;
+        display: block;
+        line-height: 1.35em;
+        padding: 4px 20px;
+        text-decoration: none;
+        white-space: nowrap;
+    }
+
+        div.menu ul li a:hover {
+            background-color: #dfd7db;
+            color: #8A6060;
+            text-decoration: none;
+        }
+
+        div.menu ul li a:active {
+            background-color: #f6f0f3;
+            color: #8A6060;
+            text-decoration: none;
+        }
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    background-color:white;
+    clear: both;
+}
+
+.title
+{
+    display: block;
+    /*float: left;*/
+    text-align: left;
+    width: auto;
+}
+
+.loginDisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding: 10px;
+
+}
+
+    .loginDisplay a:link {
+        color: #8A6060;
+    }
+
+    .loginDisplay a:visited {
+        color: #8A6060;
+    }
+
+    .loginDisplay a:hover {
+        color: #dfd7db;
+    }
+
+.failureNotification
+{
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+#Export , #Export ImageButton
+{
+          background-color: silver;
+           width: 79%;
+}
+
+
+#CertTender
+{
+     text-align: center;
+     color: red;
+      font-weight: 600;
+      font-family:Verdana
+}
+
+ div.PageTitle
+{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+    width:100%;
+
+}
+div.certCompletionTCaption
+{
+    text-align: right;
+    color: black;
+    font-family: 'Times New Roman';
+    font-size: medium;
+    font-weight: 600;
+    direction: rtl;
+}
+div.span.certCompletionTData
+{
+    text-align: right;
+    color: black;
+    font-weight: 200;
+    color: gray;
+    font-family: 'Times New Roman';
+    font-size: medium;
+}
+
+div.myGv
+{
+    text-align: right;
+    color: black;
+    background-color: white;
+    border-color: yellow;
+     
+}
+
+div#myGv
+{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    border-color:yellow;
+    text-align: right;
+    color: black;
+ }
+
+
+
+
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+ 
+}
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    border-radius: 5px;
+    margin-bottom: 170px;
+    position: center;
+    background: white;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+    table {
+        border-collapse: collapse;
+        width: 80%;
+    }
+
+
+     th {
+  background-color: #DFD7DB;
+     }
+
+   
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+
+
+
+. {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: ;
+    color: #8a6060;
+}
